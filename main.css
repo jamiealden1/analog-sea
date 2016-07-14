@@ -1,0 +1,38 @@
+* {
+	margin:0;
+}
+
+body {
+	background-color:#3f94e7;
+}
+
+main, header {
+	width:320px;
+	margin:auto;
+	padding:40px;
+}
+
+main {
+	background-color:white;
+}
+
+form {
+	background-color:#ffffff;
+}
+
+img.logo {
+	display:block;
+	height:35px;
+	margin:auto;
+}
+
+h1 {
+	font-family: Helvetica, sans-serif;
+	font-weight:lighter;
+	text-align:center;
+	color:#404040;
+}
+
+.corners {
+	border-radius:3px;
+}
