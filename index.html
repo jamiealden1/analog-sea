@@ -12,14 +12,16 @@
 	</header>
 	<main class="corners">
 			<h1>Sign up</h1>
-			<form>
-				<label for="email">Email</label>
-				<input type="email" name='email' id='email' placeholder="foo@bar.com" class="corners"/>
-				<label for="password">Password</label>
-				<input type="text" name='password' id='password' placeholder="1234passw0rd" class="corners"/>
+			<form action="/signup/" method="post">
+				<label for="email" required>Email</label>
+				<input type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" name='email' id='email' placeholder="foo@bar.com" class="corners" required/>
+				<label for="password" required>Password</label>
+				<input type="text" name='password' id='password' placeholder="1234passw0rd" class="corners" required/>
 				<button type="submit" class="corners">Sign up</button>
 			</form>
-			<a href="#">Forgot password?</a>
+			<a href="/forget-password/new">Forgot password?</a>
 	</main>
+	<footer>
+	<p>Already have an account? <a href="/login">Log in</a></p>
 </body>
 </html>

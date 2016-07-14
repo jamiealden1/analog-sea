@@ -9,10 +9,24 @@ body {
 
 }
 
-main, header {
+main, header{
 	width:400px;
 	margin:auto;
-	padding:40px;
+	padding:40px 40px 30px 40px;
+}
+
+footer {
+	width:400px
+	margin:auto;
+	text-align:center;
+	color:#ffffff;
+	padding-top:20px;
+	font-weight:bold;
+	font-size:15px;
+}
+
+footer a {
+	color:#ffffff;
 }
 
 main {
@@ -29,15 +43,16 @@ h1 {
 	font-weight:lighter;
 	text-align:center;
 	color:#404040;
-	padding-bottom:40px;
+	padding-bottom:47px;
 }
 
-a {
+main a {
 	display:block;
 	text-align:center;
 	color:gray;
 	font-size:14px;
 	padding-top:10px;
+	padding-bottom:10px;
 }
 
 .corners {
@@ -70,5 +85,6 @@ button {
 }
 
 button:hover {
-	background-color:darkgreen;
+	background-color:#36a03a;
+	border-color:#36a03a;
 }
